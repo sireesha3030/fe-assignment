@@ -1,0 +1,102 @@
+/* group file */
+.group-tab {
+    padding: 0;
+
+    width: 100%;
+    text-align: left;
+}
+
+.group-btn {
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    font-size: 20px;
+    background: rgb(2, 2, 39);
+    width: 100%;
+    margin: 0;
+    font-family: system-ui;
+    text-transform: capitalize;
+    text-align: left;
+    color: white;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.group-tab-active-btn {
+    /* font-size: 22px; */
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* group ends */
+
+
+/* location file */
+.location-tabs-con,
+.agent-tabs-con,
+.agents-sub-tabs-con {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    /* border-left: 2px solid grey; */
+    margin-left: 20px;
+    padding: 0;
+}
+
+.location-tab-btn,
+.agent-tab-btn {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    width: 100%;
+    /* background: rgb(3, 3, 70); */
+    text-align: left;
+}
+
+.active-location-btn {
+    color: rgb(31, 148, 198);
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.active-agent-tab-btn {
+    color: rgb(7, 138, 47);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/*AccessPoint Tab starts */
+.access-point-con{
+    background-color: transparent;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.access-point-btn{
+    background-color: transparent;
+    width:50px;
+    padding:5px;
+    border:none;
+    outline: none;
+    color: white;
+    font-family: system-ui;
+}
+
+.active-access-point-btn{
+    color:red;
+    font-weight: 600;
+}

@@ -1,0 +1,16 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+
+.app-bg-container{
+  display: flex;
+  height:100vh;
+  overflow: hidden;
+}
